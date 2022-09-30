@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D2B6C3A328E5101E00526B87 /* MoodMe_AssessmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B6C3A228E5101E00526B87 /* MoodMe_AssessmentApp.swift */; };
-		D2B6C3A528E5101E00526B87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B6C3A428E5101E00526B87 /* ContentView.swift */; };
-		D2B6C3A728E5101F00526B87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B6C3A628E5101F00526B87 /* Assets.xcassets */; };
-		D2B6C3AB28E5101F00526B87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B6C3AA28E5101F00526B87 /* Preview Assets.xcassets */; };
+		D2200AEE28E66AF00029A66F /* ARKitExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2200AED28E66AF00029A66F /* ARKitExtenstion.swift */; };
+		D2200AF028E66B4E0029A66F /* Mokapp_Face.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2200AEF28E66B4E0029A66F /* Mokapp_Face.swift */; };
+		D2200AF228E66B930029A66F /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2200AF128E66B930029A66F /* FaceViewController.swift */; };
+		D2200AF428E66BD40029A66F /* FaseShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2200AF328E66BD40029A66F /* FaseShapes.swift */; };
+		D2200AF828E66C5B0029A66F /* SCNNodeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2200AF728E66C5B0029A66F /* SCNNodeExtension.swift */; };
+		D2200AFA28E66C8A0029A66F /* SCNVector3Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2200AF928E66C8A0029A66F /* SCNVector3Extension.swift */; };
+		D2200AFC28E66CAA0029A66F /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2200AFB28E66CAA0029A66F /* UIColorExtension.swift */; };
 		D2B6C3B528E5101F00526B87 /* MoodMe_AssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B6C3B428E5101F00526B87 /* MoodMe_AssessmentTests.swift */; };
 		D2B6C3BF28E5101F00526B87 /* MoodMe_AssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B6C3BE28E5101F00526B87 /* MoodMe_AssessmentUITests.swift */; };
 		D2B6C3C128E5101F00526B87 /* MoodMe_AssessmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B6C3C028E5101F00526B87 /* MoodMe_AssessmentUITestsLaunchTests.swift */; };
@@ -34,9 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D2200AED28E66AF00029A66F /* ARKitExtenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitExtenstion.swift; sourceTree = "<group>"; };
+		D2200AEF28E66B4E0029A66F /* Mokapp_Face.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mokapp_Face.swift; sourceTree = "<group>"; };
+		D2200AF128E66B930029A66F /* FaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
+		D2200AF328E66BD40029A66F /* FaseShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaseShapes.swift; sourceTree = "<group>"; };
+		D2200AF528E66C140029A66F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2200AF728E66C5B0029A66F /* SCNNodeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNNodeExtension.swift; sourceTree = "<group>"; };
+		D2200AF928E66C8A0029A66F /* SCNVector3Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNVector3Extension.swift; sourceTree = "<group>"; };
+		D2200AFB28E66CAA0029A66F /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		D2B6C39F28E5101E00526B87 /* MoodMe_Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodMe_Assessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2B6C3A228E5101E00526B87 /* MoodMe_AssessmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodMe_AssessmentApp.swift; sourceTree = "<group>"; };
-		D2B6C3A428E5101E00526B87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D2B6C3A628E5101F00526B87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2B6C3A828E5101F00526B87 /* MoodMe_Assessment.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MoodMe_Assessment.entitlements; sourceTree = "<group>"; };
 		D2B6C3AA28E5101F00526B87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +54,16 @@
 		D2B6C3BA28E5101F00526B87 /* MoodMe_AssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodMe_AssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2B6C3BE28E5101F00526B87 /* MoodMe_AssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodMe_AssessmentUITests.swift; sourceTree = "<group>"; };
 		D2B6C3C028E5101F00526B87 /* MoodMe_AssessmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodMe_AssessmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D2F641D528E66DAF006BAF37 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		D2F641D728E66DD1006BAF37 /* blendShape.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = blendShape.scnassets; sourceTree = "<group>"; };
+		D2F641DA28E66E80006BAF37 /* eyebrowsl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eyebrowsl.png; sourceTree = "<group>"; };
+		D2F641DB28E66E80006BAF37 /* eyel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eyel.png; sourceTree = "<group>"; };
+		D2F641DC28E66E80006BAF37 /* mouth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mouth.png; sourceTree = "<group>"; };
+		D2F641DD28E66E80006BAF37 /* crazy-mouth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "crazy-mouth.png"; sourceTree = "<group>"; };
+		D2F641DE28E66E80006BAF37 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		D2F641DF28E66E80006BAF37 /* eyebrowsr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eyebrowsr.png; sourceTree = "<group>"; };
+		D2F641E028E66E80006BAF37 /* Fire.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Fire.scnp; sourceTree = "<group>"; };
+		D2F641E128E66E80006BAF37 /* eyer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eyer.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,10 +114,19 @@
 		D2B6C3A128E5101E00526B87 /* MoodMe_Assessment */ = {
 			isa = PBXGroup;
 			children = (
-				D2B6C3A228E5101E00526B87 /* MoodMe_AssessmentApp.swift */,
-				D2B6C3A428E5101E00526B87 /* ContentView.swift */,
 				D2B6C3A628E5101F00526B87 /* Assets.xcassets */,
+				D2F641D728E66DD1006BAF37 /* blendShape.scnassets */,
+				D2F641D528E66DAF006BAF37 /* Base.lproj */,
+				D2F641D928E66E80006BAF37 /* Particles */,
+				D2200AED28E66AF00029A66F /* ARKitExtenstion.swift */,
+				D2200AEF28E66B4E0029A66F /* Mokapp_Face.swift */,
+				D2200AF128E66B930029A66F /* FaceViewController.swift */,
+				D2200AF328E66BD40029A66F /* FaseShapes.swift */,
 				D2B6C3A828E5101F00526B87 /* MoodMe_Assessment.entitlements */,
+				D2200AF728E66C5B0029A66F /* SCNNodeExtension.swift */,
+				D2200AF928E66C8A0029A66F /* SCNVector3Extension.swift */,
+				D2200AFB28E66CAA0029A66F /* UIColorExtension.swift */,
+				D2200AF528E66C140029A66F /* Info.plist */,
 				D2B6C3A928E5101F00526B87 /* Preview Content */,
 			);
 			path = MoodMe_Assessment;
@@ -129,6 +157,21 @@
 			path = MoodMe_AssessmentUITests;
 			sourceTree = "<group>";
 		};
+		D2F641D928E66E80006BAF37 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				D2F641DA28E66E80006BAF37 /* eyebrowsl.png */,
+				D2F641DB28E66E80006BAF37 /* eyel.png */,
+				D2F641DC28E66E80006BAF37 /* mouth.png */,
+				D2F641DD28E66E80006BAF37 /* crazy-mouth.png */,
+				D2F641DE28E66E80006BAF37 /* spark.png */,
+				D2F641DF28E66E80006BAF37 /* eyebrowsr.png */,
+				D2F641E028E66E80006BAF37 /* Fire.scnp */,
+				D2F641E128E66E80006BAF37 /* eyer.png */,
+			);
+			path = Particles;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,7 +181,6 @@
 			buildPhases = (
 				D2B6C39B28E5101E00526B87 /* Sources */,
 				D2B6C39C28E5101E00526B87 /* Frameworks */,
-				D2B6C39D28E5101E00526B87 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -229,15 +271,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D2B6C39D28E5101E00526B87 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D2B6C3AB28E5101F00526B87 /* Preview Assets.xcassets in Resources */,
-				D2B6C3A728E5101F00526B87 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D2B6C3AE28E5101F00526B87 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -259,8 +292,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2B6C3A528E5101E00526B87 /* ContentView.swift in Sources */,
-				D2B6C3A328E5101E00526B87 /* MoodMe_AssessmentApp.swift in Sources */,
+				D2200AEE28E66AF00029A66F /* ARKitExtenstion.swift in Sources */,
+				D2200AF428E66BD40029A66F /* FaseShapes.swift in Sources */,
+				D2200AFA28E66C8A0029A66F /* SCNVector3Extension.swift in Sources */,
+				D2200AF228E66B930029A66F /* FaceViewController.swift in Sources */,
+				D2200AFC28E66CAA0029A66F /* UIColorExtension.swift in Sources */,
+				D2200AF028E66B4E0029A66F /* Mokapp_Face.swift in Sources */,
+				D2200AF828E66C5B0029A66F /* SCNNodeExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,10 +473,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.raymondpasion.MoodMe-Assessment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -471,10 +511,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.raymondpasion.MoodMe-Assessment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -492,10 +534,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.raymondpasion.MoodMe-AssessmentTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodMe_Assessment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoodMe_Assessment";
 			};
 			name = Debug;
@@ -514,10 +558,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.raymondpasion.MoodMe-AssessmentTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodMe_Assessment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoodMe_Assessment";
 			};
 			name = Release;
@@ -535,10 +581,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.raymondpasion.MoodMe-AssessmentUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = MoodMe_Assessment;
 			};
 			name = Debug;
@@ -556,10 +604,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.raymondpasion.MoodMe-AssessmentUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = MoodMe_Assessment;
 			};
 			name = Release;
